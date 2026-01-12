@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import { SelectItems } from '~/features/select-items'
+import { DefaultLayout } from '~/widgets/layouts'
+</script>
+
 <template>
-  <div>Home Page</div>
+  <DefaultLayout>
+    <SelectItems />
+  </DefaultLayout>
 </template>
